@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <nav>
+        <h1 class="nav-title">Dojonary</h1>
+        <input class="nav-search" type="search" placeholder="Search">
+        <button class="btn nav-btn" onclick="logout(this)">Login</button>
+    </nav>
+    <section>
+        <!--Columna Izquierda-->
+        <div class="flex-3">
+            <div class="card">
+                <div class="flex-1 text-center">
+                    <h1 class="card-title">ninja</h1>
+                    <h2><i>noun</i></h2>
+                    <h3>Plural: <i>ninjas</i></h3>
+                    <button class="btn likes-btn" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="flex-3 card-desc">
+                    <h2>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex-1 text-center">
+                    <h1 class="card-title">ninja</h1>
+                    <h2><i>noun</i></h2>
+                    <h3>Plural: <i>ninjas</i></h3>
+                    <button class="btn likes-btn" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class=" flex-3 card-desc">
+                    <h2>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!--Columna Derecha-->
+        <div class="flex-2">
+            <div class="card">
+                <div class="flex-1">
+                    <p class="card-title">Dojonary is define by <b>YOU</b></p>
+                    <button class="btn def-btn" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/js/index.js"></script>
+
+</html>
